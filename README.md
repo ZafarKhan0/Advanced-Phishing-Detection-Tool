@@ -1,13 +1,13 @@
-Advanced Phishing Detection Tool Using Machine Learning
-Overview
+# Machine Learning
+## Overview
 The Advanced Phishing Detection Tool is a machine learning-based application designed to identify phishing attempts with high accuracy. Utilizing state-of-the-art machine learning algorithms, this tool analyzes email and website features to detect potential phishing attacks.
 
-Features
+## Features
 Real-Time Phishing Detection: Predicts whether a given URL or email is a phishing attempt.
 Machine Learning Model: Trained using a robust dataset to achieve high accuracy in phishing detection.
 API Interface: Provides an easy-to-use API for integration with other applications.
 
-Installation
+## Installation
 -Clone the repository:
   git clone https://github.com/ZafarKhan0/Advanced-Phishing-Detection-Tool-Using-MachineLearning.git
   cd Advanced-Phishing-Detection-Tool-Using-MachineLearning
@@ -22,8 +22,8 @@ Installation
   pip install -r requirements.txt
 
 
-Usage
-Running the Application
+## Usage
+## Running the Application
  
 -Start the Flask server:
   python src/app.py
@@ -44,16 +44,16 @@ Request body example:
 Returns the prediction result.
 
 
-Running Tests
+## Running Tests
 To run the unit tests:
 python -m unittest discover -s tests
 
-Data
+## Data
 The project uses sample datasets for training and testing. Ensure you have phishing.csv and legitimate.csv in the data/ directory.
 
-Contributing
+## Contributing
 Feel free to contribute to this project by submitting pull requests or opening issues. Your contributions are greatly appreciated!
 
-Contact
+## Contact
 For any questions or further information, you can reach me at K213567@NU.EDU.PK
 
