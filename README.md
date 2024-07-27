@@ -1,6 +1,6 @@
 # Advanced Phishing Detection Tool Using Machine Learning
 ## Overview
-The Advanced Phishing Detection Tool is a machine learning-based application designed to identify phishing attempts with high accuracy. Utilizing state-of-the-art machine learning algorithms, this tool analyzes email and website features to detect potential phishing attacks.
+The Advanced Phishing Detection Tool is a machine learning-based application designed to identify phishing attempts with high accuracy. Utilizing machine learning algorithms, this tool analyzes email and website features to detect potential phishing attacks.
 
 ## Features
 Real-Time Phishing Detection: Predicts whether a given URL or email is a phishing attempt.
@@ -12,15 +12,12 @@ API Interface: Provides an easy-to-use API for integration with other applicatio
   git clone https://github.com/ZafarKhan0/Advanced-Phishing-Detection-Tool-Using-MachineLearning.git
   cd Advanced-Phishing-Detection-Tool-Using-MachineLearning
 
-
 -Create a virtual environment and activate it:
   python -m venv venv
   source venv/bin/activate  # On Windows use venv\Scripts\activate
 
-
 -Install the required packages:
   pip install -r requirements.txt
-
 
 ## Usage
 ## Running the Application
@@ -29,11 +26,8 @@ API Interface: Provides an easy-to-use API for integration with other applicatio
   python src/app.py
 
 -Access the API:
-
  Home Endpoint:
   GET http://127.0.0.1:5000/
-  
-
  Predict Endpoint:
   POST http://127.0.0.1:5000/predict
 
