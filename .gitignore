@@ -1,0 +1,16 @@
+# Python
+*.pyc
+__pycache__/
+
+# Data
+data/*.csv
+data/*.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model
+*.pkl
+
+# Others
+.DS_Store
